@@ -1,6 +1,6 @@
 package codes.meruhz.core.settings.yaml;
 
-import codes.meruhz.core.apis.AbstractConfiguration;
+import codes.meruhz.core.apis.settings.AbstractConfiguration;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.yaml.snakeyaml.DumperOptions;

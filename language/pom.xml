@@ -11,12 +11,12 @@
     </parent>
 
     <groupId>codes.meruhz.core</groupId>
-    <artifactId>apis</artifactId>
+    <artifactId>language</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>settings-api</module>
-        <module>language-api</module>
+        <module>lvml</module>
+        <module>mzstor</module>
     </modules>
 
     <properties>
@@ -24,5 +24,15 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <!-- Language API -->
+        <dependency>
+            <groupId>codes.meruhz.core.apis</groupId>
+            <artifactId>language-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>

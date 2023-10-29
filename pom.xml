@@ -12,6 +12,7 @@
     <modules>
         <module>apis</module>
         <module>settings</module>
+        <module>language</module>
     </modules>
 
     <properties>

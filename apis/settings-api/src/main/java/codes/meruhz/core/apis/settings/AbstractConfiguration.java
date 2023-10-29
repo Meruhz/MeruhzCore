@@ -1,4 +1,4 @@
-package codes.meruhz.core.apis;
+package codes.meruhz.core.apis.settings;
 
 import org.jetbrains.annotations.MustBeInvokedByOverriders;
 import org.jetbrains.annotations.NotNull;

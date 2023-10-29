@@ -1,6 +1,6 @@
 package codes.meruhz.core.settings.json.data;
 
-import codes.meruhz.core.apis.data.Settings;
+import codes.meruhz.core.apis.settings.data.Settings;
 import codes.meruhz.core.settings.json.JsonConfiguration;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

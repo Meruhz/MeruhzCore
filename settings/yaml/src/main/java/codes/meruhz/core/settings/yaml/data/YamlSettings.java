@@ -1,6 +1,6 @@
 package codes.meruhz.core.settings.yaml.data;
 
-import codes.meruhz.core.apis.data.Settings;
+import codes.meruhz.core.apis.settings.data.Settings;
 import codes.meruhz.core.settings.yaml.YamlConfiguration;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

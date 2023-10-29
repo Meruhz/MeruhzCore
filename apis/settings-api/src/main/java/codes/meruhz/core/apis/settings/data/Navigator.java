@@ -1,6 +1,6 @@
-package codes.meruhz.core.apis.data;
+package codes.meruhz.core.apis.settings.data;
 
-import codes.meruhz.core.apis.AbstractConfiguration;
+import codes.meruhz.core.apis.settings.AbstractConfiguration;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

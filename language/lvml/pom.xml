@@ -5,24 +5,28 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>codes.meruhz</groupId>
-        <artifactId>core</artifactId>
+        <groupId>codes.meruhz.core</groupId>
+        <artifactId>language</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>codes.meruhz.core</groupId>
-    <artifactId>apis</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>settings-api</module>
-        <module>language-api</module>
-    </modules>
+    <groupId>codes.meruhz.core.language</groupId>
+    <artifactId>lvml</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <!-- LvMultiplesLanguages API -->
+        <dependency>
+            <groupId>codes.laivy</groupId>
+            <artifactId>lvml</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
 </project>
